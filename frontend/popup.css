@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+  background-color:lavender;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 300px
+}
+
+
+/* Container Styles */
+.container {
+  background-image: linear-gradient(90deg, rgb(41, 2, 146), rgb(255, 0, 0));
+  /* background-image: url("back.jpg"); */
+  /* background-size:600px 500px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;  /* Increased width */
+  height: 30%; /* Increased height */
+}
+
+
+/* Title Styles */
+.title {
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0; /* Reset margin */
+  padding: 0rem; /* Added padding */
+  color:rgb(240, 234, 230)
+}
+
+hr.solid {
+  border-top: 3px solid #0e0808;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+
+.safe-background {
+  background-color: rgb(16, 163, 16);
+  padding: 5px;
+  border-radius: 5px;
+  display: block;
+  margin-left:10px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 40px;
+  color: azure;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.unsafe-background {
+  background-color: rgb(173, 13, 13);
+  padding: 5px;
+  border-radius: 5px;
+  display: block;
+  margin-left:10px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 40px;
+  color: azure;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Info Styles */
+.info {
+  margin-bottom: 1rem;
+  padding: 1rem; /* Added padding */
+  font-size: 100%;
+}
+
+.url{
+  margin-right: 1.2rem;
+  font-size: 15px;
+}
+
+/* Counter Styles */
+.counters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem; /* Added padding */
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: medium;
+}
+
+/* Button Styles */
+#reset {
+  position: relative; bottom: 0px;
+  background-color: #3498db;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border-color: rgb(17, 14, 16);
+  border-width: 3px;
+  cursor: pointer;
+  
+}
+
+#reset:hover {
+  background-color: #2980b9;
+}

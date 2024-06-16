@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./popup.css" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">
+            ML Shield</h1>
+    </div>
+    <hr class="solid">
+    <div class="main">
+        <div class="status">
+            <div class="safe" id="safe"><div><b><span id="safe-status"></span></b></div></div><br>
+            <div class="unsafe" id="unsafe"><span id="unsafe-status"></span></div><br>
+        </div>
+        <div class="info">
+            <div class="url" id="url"><b>Current Url:</b></div>
+        </div>
+        <div class="counters">
+            <div class="counter safe-counter">Safe websites visited: <span id="safe-counter"> 0</span></div>
+            <div class="counter unsafe-counter">Unsafe websites visited: <span id="unsafe-counter"> 0</span></div><br>
+            <div class="counters"><button id="reset">Reset Counters</button></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./popup.js"></script>
+</body>
+</html>
+
+
